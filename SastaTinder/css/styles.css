@@ -1,0 +1,258 @@
+*{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow-x: hidden;
+}
+
+body{
+  font-family: "Montserrat-Black";
+  text-align:center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family:"Montserrat";
+}
+
+p{
+  color:#646262;
+}
+
+
+/* Headings */
+
+
+.col-lg-6{
+  height: 480px;
+}
+
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size:3.5rem;
+  line-height:1.5;
+  font-weight:900;
+}
+
+.section-heading{
+  font-size:3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+
+/* Sections */
+
+.colored-section{
+background-image: url(/images/background.jpg);
+color: whitesmoke;
+}
+
+.white-section{
+background-color: hsl(323, 71%, 91%);
+}
+
+
+/* Navigation bar */
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: cursive;
+  font-size:4.5rem;
+  font-weight:bold;
+}
+
+.nav-item{
+  padding:0 18px;
+}
+
+.nav-link{
+  font-size:1.2rem;
+  font-family:"Montserrat-light";
+}
+
+
+/* image and features */
+
+.imagex img{
+  bottom: 20%;
+  width: 100%;
+}
+
+ .list-group{
+  font-size: 2.0rem;
+  line-height: 1.5;
+  color: white;
+  border-radius: 10px;
+  font-family: cursive;
+}
+
+/* Download Buttons */
+
+.btn{
+  margin:0 10px 0 0;
+}
+
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+
+/* Title Section */
+
+#title .container-fluid{
+  padding:3% 15% 7%;
+  text-align: left;
+}
+
+/* Title btn */
+
+#title-button{
+  position: relative;
+  margin-top: 40vh;
+  margin-left: 10vw;
+}
+
+/*heart animation*/
+
+.like-content {
+  display: inline-block;
+  width: 100%;
+  margin: 40px 0 0;
+  padding: 40px 0 0;
+  font-size: 18px;
+  border-top: 10px dashed #eee;
+  text-align: center;
+}
+.like-content span {
+color: #9d9da4;
+font-family: monospace;
+}
+.like-content .btn-secondary {
+  display: block;
+  margin: 40px auto 0px;
+  text-align: center;
+  background: #ed2553;
+  border-radius: 3px;
+  box-shadow: 0 10px 20px -8px rgb(240, 75, 113);
+  padding: 10px 17px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  text-decoration: none;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.like-content .btn-secondary:hover {
+  transform: translateY(-3px);
+}
+.like-content .btn-secondary .fa {
+  margin-right: 5px;
+}
+.animate-like {
+animation-name: likeAnimation;
+animation-iteration-count: 1;
+animation-fill-mode: forwards;
+animation-duration: 0.65s;
+}
+@keyframes likeAnimation {
+0%   { transform: scale(30); }
+100% { transform: scale(1); }
+}
+
+
+/* Features Section */
+#features{
+  position:relative;
+}
+
+.feature-title{
+  font-size:1.5rem;
+}
+
+.feature-box{
+  padding:5%;
+}
+
+
+
+.icon{
+  color:#EF8172;
+  margin-bottom:1rem;
+}
+
+.icon:hover{
+  color:#FF4C68;
+}
+
+
+/* Testimonial Section */
+
+#testimonials{
+  background-color:#EF8172;
+  color:#fff;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width:10%;
+  border-radius:100%;
+  margin:20px;
+}
+
+
+/* Pricing Section */
+
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+
+.price-text{
+  font-size:3rem;
+  line-height: 1.5;
+}
+
+.pricing-column{
+  padding:3% 2%;
+}
+
+
+/* footer section */
+
+#footer{
+  text-align: center;
+  background-color: #fff;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+
+
+
+@media (max-width : 992px){
+
+#title{
+  text-align: center;
+}
+
+  .title-img{
+    position:static;
+    transform: rotate(0);
+  }
+}
